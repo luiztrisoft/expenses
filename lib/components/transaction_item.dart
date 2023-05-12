@@ -79,7 +79,7 @@ class _TransactionItemState extends State<TransactionItem> {
               )
             : IconButton(
                 icon: const Icon(Icons.delete),
-                color: Theme.of(context).errorColor,
+                color: Colors.cyan, // Theme.of(context).errorColor,
                 onPressed: () => widget.onRemove(widget.tr.id),
               ),
       ),
